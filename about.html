@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>关于我们 - 南阳市创盛电器销售有限公司</title>
+  <meta name="description" content="了解南阳市创盛电器销售有限公司。">
+  <meta name="keywords" content="南阳创盛, 公司简介, 杨勋, 电器销售">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Nunito+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* --- BẮT ĐẦU: MÀU SẮC BẠN CUNG CẤP --- */
+    :root {
+      --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Nunito Sans", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+    }
+
+    :root { 
+      --background-color: #031119; 
+      --default-color: rgba(255, 255, 255, 0.8); 
+      --heading-color: #e0e9f2; 
+      --accent-color: #e3a127; 
+      --surface-color: #1b262c; 
+      --contrast-color: #ffffff; 
+    }
+
+    :root {
+      --nav-color: rgba(255, 255, 255, 0.8); 
+      --nav-hover-color: #e3a127; 
+      --nav-mobile-background-color: #29343a; 
+      --nav-dropdown-background-color: #29343a; 
+      --nav-dropdown-color: rgba(255, 255, 255, 0.8); 
+      --nav-dropdown-hover-color: #e3a127; 
+    }
+
+    .light-background {
+      --background-color: #0d1d26;
+      --surface-color: #16262f;
+    }
+
+    .dark-background {
+      --background-color: #060606;
+      --default-color: #ffffff;
+      --heading-color: #ffffff;
+      --surface-color: #252525;
+      --contrast-color: #ffffff;
+    }
+    /* --- KẾT THÚC: MÀU SẮC BẠN CUNG CẤP --- */
+
+    /* Custom Styles cho tiếng Trung và Dark Mode */
+    body {
+        font-family: 'Roboto', 'Noto Sans SC', sans-serif !important;
+        background-color: var(--background-color);
+        color: var(--default-color);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Nunito Sans', 'Noto Sans SC', sans-serif !important;
+        color: var(--heading-color);
+    }
+
+    /* Card Style (Values & Team) */
+    .about-values-box {
+        padding: 30px;
+        box-shadow: 0px 0 30px rgba(0,0,0,0.2); /* Shadow tối hơn */
+        height: 100%;
+        background-color: var(--surface-color); /* Dùng màu Surface (#1b262c) thay vì trắng */
+        color: var(--default-color);
+        transition: 0.3s;
+        border-radius: 8px;
+    }
+    .about-values-box:hover {
+        transform: translateY(-5px);
+        background-color: #223038; /* Sáng hơn xíu khi hover */
+        border-bottom: 3px solid var(--accent-color);
+    }
+    .about-values-box h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: var(--heading-color);
+    }
+    .about-values-box p {
+        color: var(--default-color);
+    }
+    
+    /* Team Member Style */
+    .team-member {
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: var(--surface-color);
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 4px solid var(--accent-color);
+    }
+    
+    /* List styling */
+    ul li {
+        color: var(--default-color);
+    }
+    ul li i {
+        color: var(--accent-color) !important; /* Đổi icon tick xanh thành màu vàng cam */
+    }
+
+    /* Override Bootstrap bg-light to match dark theme */
+    .bg-light {
+        background-color: var(--background-color) !important;
+    }
+    .section-title h2 {
+        color: var(--heading-color);
+    }
+    .section-title .description-title {
+        color: var(--accent-color);
+    }
+  </style>
+
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">南阳创盛</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="about.html" class="active">关于我们</a></li>
+          <li><a href="index.html#services">业务领域</a></li>
+          <li><a href="index.html#portfolio">案例展示</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="product.html">探索更多</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">
+      <div class="container">
+        <nav class="breadcrumbs">
+        </nav>
+        <h1>关于我们</h1>
+      </div>
+    </div><section id="about-details" class="about-details section">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/Gemini_Generated_Image_b6pj7bb6pj7bb6pj.png" class="img-fluid rounded-4 shadow" alt="About Company">
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="content ps-lg-4">
+              <h3>南阳市创盛电器销售有限公司</h3>
+              <p class="fst-italic" style="color: var(--accent-color);">
+                打造一站式电器销售与综合服务平台，为您创造更美好的生活与办公环境。
+              </p>
+              <p>
+                南阳市创盛电器销售有限公司坐落于美丽的南阳市工业路，是一家集销售、安装、维护于一体的综合性企业。在负责人<strong>杨勋</strong>的带领下，我们始终坚持“诚信为本，服务至上”的经营理念。
+              </p>
+              <p>
+                我们的业务涵盖了从家庭生活到企业办公的方方面面。无论是高端家用电器、精密的制冷设备，还是现代化的办公物资与安防系统，我们都提供最优质的产品。此外，我们拥有一支专业的服务团队，提供设备安装、日常维修以及专业的环境清洁与消毒服务，确保客户无后顾之忧。
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> <strong>全品类覆盖：</strong> 家电、电子、办公、安防一应俱全。</li>
+                <li><i class="bi bi-check-circle-fill"></i> <strong>专业化服务：</strong> 拥有经验丰富的安装与清洁技术团队。</li>
+                <li><i class="bi bi-check-circle-fill"></i> <strong>本地化深耕：</strong> 立足南阳，快速响应客户需求。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="values" class="values section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>企业文化</h2>
+        <div><span>我们的</span> <span class="description-title">核心价值观</span></div>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-values-box">
+              <div class="icon mb-3"><i class="bi bi-gem fs-2" style="color: var(--accent-color);"></i></div>
+              <h3>品质至上</h3>
+              <p>我们要严选每一件商品，无论是厨房家电还是办公耗材，确保产品质量过硬，经久耐用。</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-values-box">
+              <div class="icon mb-3"><i class="bi bi-heart fs-2" style="color: var(--accent-color);"></i></div>
+              <h3>用心服务</h3>
+              <p>不仅仅是销售，更注重售后体验。从安装调试到清洁保养，我们用心对待每一个服务环节。</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="about-values-box">
+              <div class="icon mb-3"><i class="bi bi-shield-lock fs-2" style="color: var(--accent-color);"></i></div>
+              <h3>诚信经营</h3>
+              <p>价格透明，童叟无欺。我们承诺正品保障，以诚信赢得南阳客户的长期信赖。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scope" class="scope section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>经营范围</h2>
+        <div><span>全面的</span> <span class="description-title">业务详情</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 content">
+            <h4>我们提供以下类别的产品与服务：</h4>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>家用电器：</strong> 冰箱、洗衣机、电视、热水器等。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>制冷设备：</strong> 家用/商用空调、冷柜、通风设备。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>办公物资：</strong> 打印机、电脑周边、办公文具。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>电子产品：</strong> 数码配件、智能穿戴设备。</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>安防监控：</strong> 摄像头、门禁系统、报警装置。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>厨卫百货：</strong> 厨房用具、卫生洁具、日用百货。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>环保设备：</strong> 空气净化器、净水设备。</li>
+                  <li class="mb-3"><i class="bi bi-dot fs-4"></i> <strong>专业服务：</strong> 家电安装、维修、深度清洁、消毒。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-left">
+            <img src="assets/img/Gemini_Generated_Image_928n4t928n4t928n.png" alt="Business Scope" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" class="leadership section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>管理团队</h2>
+        <div><span>公司</span> <span class="description-title">负责人</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member w-100">
+              <div class="member-img">
+              </div>
+              <div class="member-info mt-3">
+                <h4>杨勋</h4>
+                <span class="d-block mb-2" style="color: var(--accent-color);">总经理 / 负责人</span>
+                <p>杨勋先生拥有多年的行业管理经验，致力于带领创盛电器成为南阳地区领先的综合服务商。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">南阳创盛</span>
+          </a>
+          <p>您身边的一站式生活管家。我们不仅销售优质产品，更提供温暖贴心的服务。</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-wechat"></i></a>
+            <a href=""><i class="bi bi-telephone"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>快速链接</h4>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="index.html#services">业务领域</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>服务项目</h4>
+          <ul>
+            <li><a href="#">家电安装</a></li>
+            <li><a href="#">清洁消毒</a></li>
+            <li><a href="#">安防施工</a></li>
+            <li><a href="#">企业采购</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>联系我们</h4>
+          <p>南阳市工业路春泉花园</p>
+          <p>5号楼3404室</p>
+          <p><strong>负责人:</strong> 杨勋</p>
+          <p><strong>电话:</strong> +86 138 3772 5378</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright mt-4">
+        <div class="text-center">
+            <p class="mb-0">© <span>版权所有</span> <strong class="px-1 sitename">南阳市创盛电器销售有限公司</strong></p>
+        </div>
+
+        <div class="credits text-end mt-2">
+            <a href="privacy.html" style="color: #fff; opacity: 0.6; font-size: 13px; margin-right: 15px;">隐私政策</a>
+            <a href="term.html" style="color: #fff; opacity: 0.6; font-size: 13px;">使用条款</a>
+        </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
