@@ -174,7 +174,8 @@ function renderProductDetail() {
                 </div>
                 <hr style="border-color: rgba(255,255,255,0.1);">
                 <div class="mt-4">
-                    <button class="btn btn-lg px-5" style="background-color: var(--accent-color); color: #fff; border: none;">Contact to Order</button>
+                    <a href="contact.html" class="btn btn-lg px-5" style="background-color: var(--accent-color); color: #fff; border: none;">
+                        联系订购 </a>
                 </div>
             </div>
         </div>
