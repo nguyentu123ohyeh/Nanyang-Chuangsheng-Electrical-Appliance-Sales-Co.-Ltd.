@@ -54,7 +54,7 @@ function renderProducts(page) {
                     <div class="mt-3">
                         <a href="product-detail.html?id=${product.id}" class="btn w-100" 
                            style="background-color: var(--accent-color); color: #fff; border: none; transition: 0.3s;">
-                           Detail
+                           细节
                         </a>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ function renderProductDetail() {
         detailDiv.innerHTML = `
             <div class="text-center py-5">
                 <h2 style="color: var(--heading-color);">Product not found</h2>
-                <a href="product.html" class="btn mt-3" style="background-color: var(--accent-color); color: #fff;">Back to Products</a>
+                <a href="product.html" class="btn mt-3" style="background-color: var(--accent-color); color: #fff;">返回产品页面</a>
             </div>
         `;
         return;
@@ -151,7 +151,7 @@ function renderProductDetail() {
     const imgs = product.imgs && product.imgs.length ? product.imgs : [product.img];
     
     detailDiv.innerHTML = `
-        <a href="product.html" class="btn btn-outline-secondary mb-4" style="color: var(--default-color); border-color: var(--default-color);">&larr; Back to Products</a>
+        <a href="product.html" class="btn btn-outline-secondary mb-4" style="color: var(--default-color); border-color: var(--default-color);">&larr; 返回产品页面</a>
         <div class="row">
             <div class="col-md-6 mb-4">
                 <div class="card border-0" style="background-color: var(--surface-color);">
